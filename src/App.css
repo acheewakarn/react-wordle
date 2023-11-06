@@ -1,14 +1,22 @@
 .square {
   background: #fff;
-  border: 2px solid #999;
+  border-width: 1px;
+  border-color: #999;
   float: left;
   font-size: 24px;
   font-weight: bold;
-  line-height: 36px;
-  height: 36px;
+  line-height: 42px;
+  height: 42px;
   margin-right: 3px;
   margin-top: 3px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 42px;
+}
+
+.game {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
